@@ -23,13 +23,13 @@ public class Homework46 {
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
-        int sum = 1;
+        long product = 1;
         for (int i = 0; i < n; i++) {
             if (arr[i] % 2 == 0) {
-                sum *= arr[i];
+                product *= arr[i];
             }
         }
 
-        System.out.println(sum);
+        System.out.println(product);
     }
 }
